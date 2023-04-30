@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#squares-button {
+    margin-bottom: 1rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #af4c4c;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#squares-button:hover {
+    background-color: #af904c;
+}
+
+#grid-container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+    grid-gap: 1px;
+    background-color: #f0f0f0;
+}
+
+.square {
+    background-color: white;
+}
